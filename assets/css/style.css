@@ -1,0 +1,436 @@
+/* 
+    Author: Aakash Sharma
+    Theme: Oxence
+    Version: 1.0
+*/
+
+/* CSS For All */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #696e7b;
+    background: white;
+    font-weight: 400;
+    line-height: 32px;
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+}
+
+.container{
+    width: 100%;
+    max-width: 1320px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: auto;
+}
+
+.hidden{
+    display: none;
+}
+
+.row{
+    display: flex;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.large-5-box{
+    flex: 0 0 auto;
+    width: 100%;
+    max-width: 41.66666667%;
+}
+
+.large-6-box{
+    flex: 0 0 auto;
+    width: 100%;
+    max-width: 50%;
+}
+
+.large-column-7-box{
+    flex: 0 0 auto;
+    width: 100%;
+    max-width: 58.33333333%;
+}
+
+.large-box-3{
+    flex: 0 0 auto;
+    width: 100%;
+    max-width: 25%;
+}
+
+.large-column-4-box{
+    flex: 0 0 auto;
+    width: 33.33333333%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.column-large-box-12{
+    flex: 0 0 auto;
+    width: 100%;
+    max-width: 100%;
+}
+
+.small-6-box{
+    flex: 0 0 auto;
+    width: 16.6666666667%;
+}
+
+.text-left{
+    text-align: left;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-right{
+    text-align: right;
+}
+
+.section-title{
+    margin-bottom: 60px;
+    margin-top: -7px;
+}
+
+.section-title .sub-title{
+    font-size: 18px;
+    font-weight: 700;
+    align-items: center;
+    display: inline-flex;
+    text-decoration: underline;
+    margin-bottom: 10px;
+    color: #fc653c;
+}
+
+
+svg {
+    height: auto;
+    width: 100%;
+    display: block;
+}
+
+.img-responsive{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+h1,h2,h3,h4,h5{
+    font-weight: 700;
+    color: #293043;
+}
+
+h2{
+    font-size: 45px;
+    line-height: 1.22;
+}
+
+h5{
+    line-height: 1.5;
+    font-size: 18px;
+}
+
+h4{
+    line-height: 1.65;
+    font-size: 24px;
+}
+
+.section-title h2{
+    margin-bottom: 25px;
+}
+
+ul, li{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: #696e7b;
+    cursor: pointer;
+    outline: none;
+    transition: all 0.5s ease-in-out;
+}
+
+input{
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    border: none;
+    margin-top: 10px;
+    padding: 14px 30px;
+    margin-bottom: 15px;
+}
+
+.theme-button{
+    z-index: 1;
+    color: white;
+    cursor: pointer;
+    overflow: hidden;
+    transition: all 0.5s ease-in-out;
+    font-weight: 700;
+    text-align: center;
+    padding: 12px 30px;
+    align-items: center;
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    background: #fc653c;
+    border-color: #fc653c;
+    outline: none;
+    box-shadow: none;
+    border-radius: 27px;
+}
+
+/* CSS For Header */
+.desktop-navbar-box{
+    display: flex;
+}
+
+.mobile-navbar-box{
+    display: none;
+}
+
+.navigation{
+    display: flex;
+}
+
+
+
+
+/* CSS For Hidden Sidebar */
+
+.hidden-bar{
+    display: none;
+}
+
+/* CSS For Slider Section */
+
+/* CSS For Core Feature */
+
+.core-feature{
+    padding: 100px 0 70px 0;
+    background: #f7f9fd;
+}
+
+.feature-grid-box {
+    display: grid;
+    grid-template-columns: repeat(6,auto);
+}
+
+.feature-small-box {
+    padding: 0 15px;
+}
+
+.feature-item-six {
+    margin-bottom: 30px;
+    padding: 35px 20px;
+    text-align: center;
+    background: white;
+    border-radius: 4px;
+    transition: all 0.5s ease-in-out;
+}
+
+.feature-icon-box {
+    margin-bottom: 10px;
+}
+
+.responsive-icon, .feature-icon, .aim-icon, .seo-icon, .search-location-icon, .settings-icon {
+    width: 60px;
+    height: auto;
+    margin: auto;
+}
+
+.feature-icon-box svg {
+    fill: #fc653c !important;
+}
+
+.feature-item-six:hover{
+    background-size: cover;
+    transform: translateY(-15px);
+    background: url(../images/feature-bg.png);
+    background-color: #fc653c;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+
+
+.feature-item-six:hover h5 {
+    color: #fff;
+    transition: all 0.5s ease-in-out;
+}
+
+.feature-item-six:hover svg {
+    fill: #fff !important;
+    transition: all 0.5s ease-in-out;
+}
+
+
+
+
+/* CSS For About Us */
+
+/* CSS For Statistics */
+
+/* CSS For Design Featured */
+
+/* CSS For Project Area */
+
+.project-three-box{
+    display: none;
+}
+
+/* CSS For Work Process Area */
+
+/* CSS For CTA */
+
+/* CSS For Pricing */
+
+/* CSS For Testimonial */
+
+/* CSS For Contact Area */
+
+/* CSS For Blog Area */
+
+/* CSS For Footer Area */
+
+.footer-area{
+    background-color: #f7f9fd;
+    padding-top: 80px;
+}
+
+.about-me-box{
+    margin-right: 3rem !important;
+}
+
+.about-me-box,.footer-nav-menu-box, .newsletter-box{
+    margin-bottom: 50px;
+}
+
+.footer-logo {
+    margin-bottom: 25px;
+    width: 220px;
+}
+
+.footer-title{
+    margin-bottom: 25px;
+}
+
+.social-style-bar-box {
+    display: inline-flex;
+    margin-left: -5px;
+    margin-right: -5px;
+    flex-wrap: wrap;
+}
+
+.social-style-bar-box a {
+    margin: 10px 5px 0;
+    width: 45px;
+    height: 45px;
+    background: white;
+    line-height: 45px;
+    border-radius: 50%;
+    text-align: center;
+    box-shadow: 10px 0 30px rgb(175 175 175 / 30%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease-in-out;
+}
+
+.social-style-bar-box a:hover {
+    background: #fc653c;
+    transition: all 0.5s ease-in-out;
+}
+
+.social-style-bar-box a:hover svg{
+    fill: #fff;
+    transition: all 0.5s ease-in-out;
+}
+
+.social-style-bar-box svg{
+    fill: #fc653c;
+    transition: all 0.5s ease-in-out;
+} 
+
+.facebook-icon, .twitter-icon, .linkedin-icon, .behance-icon {
+    width: 18px;
+    height: auto;
+}
+
+
+.list-style {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.list-style li:nth-child(odd){
+    width: 55%;
+}
+
+.list-style li{
+    margin-bottom: 8px;
+    display: flex;
+}
+
+.list-style li::before{
+    width: 5px;
+    height: 5px;
+    content: '';
+    margin-top: 13px;
+    margin-right: 15px;
+    border-radius: 50%;
+    background: #afafaf;
+}
+
+.list-style li:hover a{
+    color: #fc653c;
+    text-decoration: underline;
+}
+
+.newsletter-box {
+    border-radius: 7px;
+    border: 1px solid rgba(0, 102, 255, 0.1);
+    padding: 35px 40px 45px;
+}
+
+.newsletter-box .footer-title {
+    margin-bottom: 2px;
+}
+
+/* CSS For Copyright */
+
+/* CSS For Scroll Top Button */
+
+button.scroll-to-top {
+    position: fixed;
+    right: 0;
+    bottom: 25px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    z-index: 99;
+    font-size: 14px;
+    background-color: #fc653c;
+    border: none;
+    border-radius: 5px;
+}
+
+.up-arrow-icon {
+    width: 14px;
+    height: auto;
+    margin: auto;
+}
+
+.up-arrow-icon svg {
+    fill: #fff;
+    stroke-width: 14px;
+}
